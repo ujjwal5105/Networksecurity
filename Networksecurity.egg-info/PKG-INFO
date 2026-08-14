@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: Networksecurity
+Version: 0.0.1
+Author: ujjwal  
+Author-email: ujjawal5105@gmail.com
+Requires-Dist: python-dotenv
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pymango
+Requires-Dist: certifi
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
