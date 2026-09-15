@@ -3,5 +3,8 @@ pandas
 numpy
 pymango
 certifi
+pymango[srv]==3.12
+pymango
+
 
 ## -e .
