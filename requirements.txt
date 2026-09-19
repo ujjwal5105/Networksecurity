@@ -1,10 +1,10 @@
 python-dotenv
 pandas
 numpy
-pymango
 certifi
-pymango[srv]==3.12
-pymango
+pymongo[srv]==3.12
+scikit-learn
+
 
 
 ## -e .

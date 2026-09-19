@@ -34,3 +34,10 @@ except Exception as e:
     print("\n❌ MongoDB connection FAILED")
     print(f"Error Type: {type(e).__name__}")
     print(f"Details: {e}")
+# Add this at the end of test_mongo.py
+databases = client.list_database_names()
+print("\n📂 Actual Databases in your Atlas Cluster:", databases)
+
+for db_name in databases:
+    if db_name not in ['admin', 'local']:
+        print(f"   ↳ Collections inside '{db_name}':", client[db_name].list_collection_names())
